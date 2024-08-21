@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  width: 100%;
+}
+
+header {
+    background-image: linear-gradient(to right, #4200ff, #a889ff);
+    color: #000000;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+}
+
+header img {
+    height: 70px;
+    margin-left: 80px;
+    border-radius: 77%;
+}
+
+header a{
+    color: #000000;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+#pesquisa {    
+    background-image: url("img/Search.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 30px;
+  }
+
+  .texto{
+    display: flex;
+    flex-direction: row; 
+    text-align: left;
+    width: 97%;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  main h1{
+    color: white;
+    font-size: 36px;
+    font-family: 'Krona One', sans-serif;
+    text-align: center;
+    padding: 20px
+  }
+  
+
+  main p{
+    font-size: 24px; 
+    font-family: 'Montserrat', sans-serif;
+  }                            
+
+  .principal {
+    background-image: url('img/AT.png');
+    height: 630px;
+    background-repeat: no-repeat;
+}
+
+footer{
+  background-image: linear-gradient(to right, #4200ff, #a889ff);
+    color: #000000;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    margin: 0px;
+  }
