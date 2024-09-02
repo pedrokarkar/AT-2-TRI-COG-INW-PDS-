@@ -76,3 +76,68 @@ footer{
     align-items: center;
     margin: 0px;
   }
+
+ @media (max-width: 768px) {
+    header {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    header img {
+      margin: 0;
+    }
+  
+    header a {
+      margin: 10px 0;
+    }
+  
+    .texto {
+      width: 100%;
+      padding: 10px;
+    }
+  
+    main h1 {
+      font-size: 28px;
+    }
+  
+    main p {
+      font-size: 20px;
+    }
+  
+    .principal {
+      height: auto;
+      background-size: cover;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    header {
+      padding: 10px;
+    }
+  
+    header img {
+      height: 50px;
+    }
+  
+    header a {
+      font-size: 14px;
+    }
+  
+    .texto {
+      padding: 5px;
+    }
+  
+    main h1 {
+      font-size: 24px;
+    }
+  
+    main p {
+      font-size: 18px;
+    }
+  
+    .principal {
+      height: auto;
+      background-size: cover;
+    }
+  }
